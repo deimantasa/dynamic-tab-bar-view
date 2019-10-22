@@ -101,12 +101,14 @@ class _MainPageState extends State<MainPage> with TickerProviderStateMixin {
 
   void _addAnotherTab() {
     _tabs = getTabs(_tabs.length + 1);
+    _tabController.index = 0;
     _tabController = getTabController();
     _updatePage();
   }
 
   void _removeTab() {
     _tabs = getTabs(_tabs.length - 1);
+    _tabController.index = 0;
     _tabController = getTabController();
     _updatePage();
   }
