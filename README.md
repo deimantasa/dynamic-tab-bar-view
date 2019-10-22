@@ -1,16 +1,21 @@
 # dynamic_tab_bar_view
 
-A new Flutter application.
+Simple lightweight DEMO application to represent how can one create dynamic TabBar with dynamic TabBarViews.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+Full article is available on [Medium](https://medium.com/@aurimas.deimantas/dynamic-tabbar-and-tabbarview-in-flutter-7f364b266aef?sk=652c7f804e457e9c12793e6155347d10).
 
-A few resources to get you started if this is your first Flutter project:
+### This project has several branches
+- tbv-basic
+- non-scrollable-tbv
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+#### tbv-basic
+tbv-basic contains basic implementation of dynamic TabBars.
+https://youtu.be/KtpcFAwkBks
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+#### non-scrollable-tbv
+non-scrollable-tbv contains more advanced TabBar implementation with extra precautions and buttons as the navigation
+https://youtu.be/u3yjLxe_IdE
+
